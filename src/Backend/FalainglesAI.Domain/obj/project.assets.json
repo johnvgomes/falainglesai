@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\MeusProjetos\\2026\\falainglesai\\src\\Backend\\FalainglesAI.Domain\\SpeakAI.Domain.csproj",
-      "projectName": "SpeakAI.Domain",
-      "projectPath": "D:\\MeusProjetos\\2026\\falainglesai\\src\\Backend\\FalainglesAI.Domain\\SpeakAI.Domain.csproj",
+      "projectUniqueName": "D:\\MeusProjetos\\2026\\falainglesai\\src\\Backend\\FalaInglesAI.Domain\\FalaInglesAI.Domain.csproj",
+      "projectName": "FalaInglesAI.Domain",
+      "projectPath": "D:\\MeusProjetos\\2026\\falainglesai\\src\\Backend\\FalaInglesAI.Domain\\FalaInglesAI.Domain.csproj",
       "packagesPath": "C:\\Users\\John\\.nuget\\packages\\",
-      "outputPath": "D:\\MeusProjetos\\2026\\falainglesai\\src\\Backend\\FalainglesAI.Domain\\obj\\",
+      "outputPath": "D:\\MeusProjetos\\2026\\falainglesai\\src\\Backend\\FalaInglesAI.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\John\\AppData\\Roaming\\NuGet\\NuGet.Config"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jgK6UF65n5I=",
+  "dgSpecHash": "ogKEizizmfs=",
   "success": true,
-  "projectFilePath": "D:\\MeusProjetos\\2026\\falainglesai\\src\\Backend\\FalainglesAI.Domain\\SpeakAI.Domain.csproj",
+  "projectFilePath": "D:\\MeusProjetos\\2026\\falainglesai\\src\\Backend\\FalaInglesAI.Domain\\FalaInglesAI.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

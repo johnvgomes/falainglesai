@@ -2,10 +2,10 @@
   "version": 3,
   "targets": {
     "net10.0": {
-      "Microsoft.AspNetCore.OpenApi/10.0.7": {
+      "Microsoft.AspNetCore.OpenApi/10.0.12": {
         "type": "package",
         "dependencies": {
-          "Microsoft.OpenApi": "2.0.0"
+          "Microsoft.OpenApi": "[2.12.0, 3.0.0)"
         },
         "compile": {
           "lib/net10.0/Microsoft.AspNetCore.OpenApi.dll": {
@@ -24,7 +24,7 @@
           "build/Microsoft.AspNetCore.OpenApi.targets": {}
         }
       },
-      "Microsoft.OpenApi/2.0.0": {
+      "Microsoft.OpenApi/2.12.0": {
         "type": "package",
         "compile": {
           "lib/net8.0/Microsoft.OpenApi.dll": {
@@ -37,50 +37,50 @@
           }
         }
       },
-      "SpeakAI.Application/1.0.0": {
+      "FalaInglesAI.Application/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v10.0",
         "dependencies": {
-          "SpeakAI.Domain": "1.0.0"
+          "FalaInglesAI.Domain": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/SpeakAI.Application.dll": {}
+          "bin/placeholder/FalaInglesAI.Application.dll": {}
         },
         "runtime": {
-          "bin/placeholder/SpeakAI.Application.dll": {}
+          "bin/placeholder/FalaInglesAI.Application.dll": {}
         }
       },
-      "SpeakAI.Domain/1.0.0": {
+      "FalaInglesAI.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v10.0",
         "compile": {
-          "bin/placeholder/SpeakAI.Domain.dll": {}
+          "bin/placeholder/FalaInglesAI.Domain.dll": {}
         },
         "runtime": {
-          "bin/placeholder/SpeakAI.Domain.dll": {}
+          "bin/placeholder/FalaInglesAI.Domain.dll": {}
         }
       },
-      "SpeakAI.Infrastructure/1.0.0": {
+      "FalaInglesAI.Infrastructure/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v10.0",
         "dependencies": {
-          "SpeakAI.Application": "1.0.0",
-          "SpeakAI.Domain": "1.0.0"
+          "FalaInglesAI.Application": "1.0.0",
+          "FalaInglesAI.Domain": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/SpeakAI.Infrastructure.dll": {}
+          "bin/placeholder/FalaInglesAI.Infrastructure.dll": {}
         },
         "runtime": {
-          "bin/placeholder/SpeakAI.Infrastructure.dll": {}
+          "bin/placeholder/FalaInglesAI.Infrastructure.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "Microsoft.AspNetCore.OpenApi/10.0.7": {
-      "sha512": "vKiAcGXG0BwNVw3bOjjWRLnp9tR18dR7MiwpvC94h0yFS+zfnzGHzS/JmmgwUdRixrGxrlIMRAWrVc+2DfAGlg==",
+    "Microsoft.AspNetCore.OpenApi/10.0.12": {
+      "sha512": "7RnQ/UKn+kK3JDLmTpW+vVqNErWthGPAVAy1aIiBzv4ucQ6g9NFvOJUuT0PHcpvcJxGVxctMxj6t+NESWMrgHQ==",
       "type": "package",
-      "path": "microsoft.aspnetcore.openapi/10.0.7",
+      "path": "microsoft.aspnetcore.openapi/10.0.12",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -91,14 +91,14 @@
         "build/Microsoft.AspNetCore.OpenApi.targets",
         "lib/net10.0/Microsoft.AspNetCore.OpenApi.dll",
         "lib/net10.0/Microsoft.AspNetCore.OpenApi.xml",
-        "microsoft.aspnetcore.openapi.10.0.7.nupkg.sha512",
+        "microsoft.aspnetcore.openapi.10.0.12.nupkg.sha512",
         "microsoft.aspnetcore.openapi.nuspec"
       ]
     },
-    "Microsoft.OpenApi/2.0.0": {
-      "sha512": "GGYLfzV/G/ct80OZ45JxnWP7NvMX1BCugn/lX7TH5o0lcVaviavsLMTxmFV2AybXWjbi3h6FF1vgZiTK6PXndw==",
+    "Microsoft.OpenApi/2.12.0": {
+      "sha512": "0xB/be+f6qYOhvQPUrVsLrau+fkowYv6gt9RIkajMhwT7sZnqtcA797yW3bS5kgSje+AQW4xZgyLnW641YFioQ==",
       "type": "package",
-      "path": "microsoft.openapi/2.0.0",
+      "path": "microsoft.openapi/2.12.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -109,31 +109,31 @@
         "lib/netstandard2.0/Microsoft.OpenApi.dll",
         "lib/netstandard2.0/Microsoft.OpenApi.pdb",
         "lib/netstandard2.0/Microsoft.OpenApi.xml",
-        "microsoft.openapi.2.0.0.nupkg.sha512",
+        "microsoft.openapi.2.12.0.nupkg.sha512",
         "microsoft.openapi.nuspec"
       ]
     },
-    "SpeakAI.Application/1.0.0": {
+    "FalaInglesAI.Application/1.0.0": {
       "type": "project",
-      "path": "../FalainglesAI.Application/SpeakAI.Application.csproj",
-      "msbuildProject": "../FalainglesAI.Application/SpeakAI.Application.csproj"
+      "path": "../FalaInglesAI.Application/FalaInglesAI.Application.csproj",
+      "msbuildProject": "../FalaInglesAI.Application/FalaInglesAI.Application.csproj"
     },
-    "SpeakAI.Domain/1.0.0": {
+    "FalaInglesAI.Domain/1.0.0": {
       "type": "project",
-      "path": "../FalainglesAI.Domain/SpeakAI.Domain.csproj",
-      "msbuildProject": "../FalainglesAI.Domain/SpeakAI.Domain.csproj"
+      "path": "../FalaInglesAI.Domain/FalaInglesAI.Domain.csproj",
+      "msbuildProject": "../FalaInglesAI.Domain/FalaInglesAI.Domain.csproj"
     },
-    "SpeakAI.Infrastructure/1.0.0": {
+    "FalaInglesAI.Infrastructure/1.0.0": {
       "type": "project",
-      "path": "../FalainglesAI.Infrastructure/SpeakAI.Infrastructure.csproj",
-      "msbuildProject": "../FalainglesAI.Infrastructure/SpeakAI.Infrastructure.csproj"
+      "path": "../FalaInglesAI.Infrastructure/FalaInglesAI.Infrastructure.csproj",
+      "msbuildProject": "../FalaInglesAI.Infrastructure/FalaInglesAI.Infrastructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net10.0": [
-      "Microsoft.AspNetCore.OpenApi >= 10.0.7",
-      "SpeakAI.Application >= 1.0.0",
-      "SpeakAI.Infrastructure >= 1.0.0"
+      "FalaInglesAI.Application >= 1.0.0",
+      "FalaInglesAI.Infrastructure >= 1.0.0",
+      "Microsoft.AspNetCore.OpenApi >= 10.0.*"
     ]
   },
   "packageFolders": {
@@ -142,9 +142,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\MeusProjetos\\2026\\falainglesai\\src\\Backend\\FalaInglesAI.API\\SpeakAI.API.csproj",
-      "projectName": "SpeakAI.API",
-      "projectPath": "D:\\MeusProjetos\\2026\\falainglesai\\src\\Backend\\FalaInglesAI.API\\SpeakAI.API.csproj",
+      "projectUniqueName": "D:\\MeusProjetos\\2026\\falainglesai\\src\\Backend\\FalaInglesAI.API\\FalaInglesAI.API.csproj",
+      "projectName": "FalaInglesAI.API",
+      "projectPath": "D:\\MeusProjetos\\2026\\falainglesai\\src\\Backend\\FalaInglesAI.API\\FalaInglesAI.API.csproj",
       "packagesPath": "C:\\Users\\John\\.nuget\\packages\\",
       "outputPath": "D:\\MeusProjetos\\2026\\falainglesai\\src\\Backend\\FalaInglesAI.API\\obj\\",
       "projectStyle": "PackageReference",
@@ -161,11 +161,11 @@
         "net10.0": {
           "targetAlias": "net10.0",
           "projectReferences": {
-            "D:\\MeusProjetos\\2026\\falainglesai\\src\\Backend\\FalainglesAI.Application\\SpeakAI.Application.csproj": {
-              "projectPath": "D:\\MeusProjetos\\2026\\falainglesai\\src\\Backend\\FalainglesAI.Application\\SpeakAI.Application.csproj"
+            "D:\\MeusProjetos\\2026\\falainglesai\\src\\Backend\\FalaInglesAI.Application\\FalaInglesAI.Application.csproj": {
+              "projectPath": "D:\\MeusProjetos\\2026\\falainglesai\\src\\Backend\\FalaInglesAI.Application\\FalaInglesAI.Application.csproj"
             },
-            "D:\\MeusProjetos\\2026\\falainglesai\\src\\Backend\\FalainglesAI.Infrastructure\\SpeakAI.Infrastructure.csproj": {
-              "projectPath": "D:\\MeusProjetos\\2026\\falainglesai\\src\\Backend\\FalainglesAI.Infrastructure\\SpeakAI.Infrastructure.csproj"
+            "D:\\MeusProjetos\\2026\\falainglesai\\src\\Backend\\FalaInglesAI.Infrastructure\\FalaInglesAI.Infrastructure.csproj": {
+              "projectPath": "D:\\MeusProjetos\\2026\\falainglesai\\src\\Backend\\FalaInglesAI.Infrastructure\\FalaInglesAI.Infrastructure.csproj"
             }
           }
         }
@@ -188,7 +188,7 @@
         "dependencies": {
           "Microsoft.AspNetCore.OpenApi": {
             "target": "Package",
-            "version": "[10.0.7, )"
+            "version": "[10.0.*, )"
           }
         },
         "imports": [
@@ -627,17 +627,5 @@
         }
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1903",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "O pacote 'Microsoft.OpenApi' 2.0.0 tem uma alta vulnerabilidade de gravidade conhecida, https://github.com/advisories/GHSA-v5pm-xwqc-g5wc",
-      "libraryId": "Microsoft.OpenApi",
-      "targetGraphs": [
-        "net10.0"
-      ]
-    }
-  ]
+  }
 }

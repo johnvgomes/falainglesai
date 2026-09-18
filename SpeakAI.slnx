@@ -1,9 +1,0 @@
-<Solution>
-  <Folder Name="/src/" />
-  <Folder Name="/src/Backend/">
-    <Project Path="src/Backend/FalainglesAI.API/SpeakAI.API.csproj" />
-    <Project Path="src/Backend/FalainglesAI.Application/SpeakAI.Application.csproj" />
-    <Project Path="src/Backend/FalainglesAI.Domain/SpeakAI.Domain.csproj" />
-    <Project Path="src/Backend/FalainglesAI.Infrastructure/SpeakAI.Infrastructure.csproj" />
-  </Folder>
-</Solution>

@@ -1,0 +1,12 @@
+D:\MeusProjetos\2026\falainglesai\src\Backend\FalaInglesAI.Domain\bin\Debug\net10.0\FalaInglesAI.Domain.deps.json
+D:\MeusProjetos\2026\falainglesai\src\Backend\FalaInglesAI.Domain\bin\Debug\net10.0\FalaInglesAI.Domain.dll
+D:\MeusProjetos\2026\falainglesai\src\Backend\FalaInglesAI.Domain\bin\Debug\net10.0\FalaInglesAI.Domain.pdb
+D:\MeusProjetos\2026\falainglesai\src\Backend\FalaInglesAI.Domain\obj\Debug\net10.0\FalaInglesAI.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\MeusProjetos\2026\falainglesai\src\Backend\FalaInglesAI.Domain\obj\Debug\net10.0\FalaInglesAI.Domain.AssemblyInfoInputs.cache
+D:\MeusProjetos\2026\falainglesai\src\Backend\FalaInglesAI.Domain\obj\Debug\net10.0\FalaInglesAI.Domain.AssemblyInfo.cs
+D:\MeusProjetos\2026\falainglesai\src\Backend\FalaInglesAI.Domain\obj\Debug\net10.0\FalaInglesAI.Domain.csproj.CoreCompileInputs.cache
+D:\MeusProjetos\2026\falainglesai\src\Backend\FalaInglesAI.Domain\obj\Debug\net10.0\FalaInglesAI.Domain.sourcelink.json
+D:\MeusProjetos\2026\falainglesai\src\Backend\FalaInglesAI.Domain\obj\Debug\net10.0\FalaInglesAI.Domain.dll
+D:\MeusProjetos\2026\falainglesai\src\Backend\FalaInglesAI.Domain\obj\Debug\net10.0\refint\FalaInglesAI.Domain.dll
+D:\MeusProjetos\2026\falainglesai\src\Backend\FalaInglesAI.Domain\obj\Debug\net10.0\FalaInglesAI.Domain.pdb
+D:\MeusProjetos\2026\falainglesai\src\Backend\FalaInglesAI.Domain\obj\Debug\net10.0\ref\FalaInglesAI.Domain.dll

@@ -2,47 +2,47 @@
   "version": 3,
   "targets": {
     "net10.0": {
-      "SpeakAI.Application/1.0.0": {
+      "FalaInglesAI.Application/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v10.0",
         "dependencies": {
-          "SpeakAI.Domain": "1.0.0"
+          "FalaInglesAI.Domain": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/SpeakAI.Application.dll": {}
+          "bin/placeholder/FalaInglesAI.Application.dll": {}
         },
         "runtime": {
-          "bin/placeholder/SpeakAI.Application.dll": {}
+          "bin/placeholder/FalaInglesAI.Application.dll": {}
         }
       },
-      "SpeakAI.Domain/1.0.0": {
+      "FalaInglesAI.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v10.0",
         "compile": {
-          "bin/placeholder/SpeakAI.Domain.dll": {}
+          "bin/placeholder/FalaInglesAI.Domain.dll": {}
         },
         "runtime": {
-          "bin/placeholder/SpeakAI.Domain.dll": {}
+          "bin/placeholder/FalaInglesAI.Domain.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "SpeakAI.Application/1.0.0": {
+    "FalaInglesAI.Application/1.0.0": {
       "type": "project",
-      "path": "../FalainglesAI.Application/SpeakAI.Application.csproj",
-      "msbuildProject": "../FalainglesAI.Application/SpeakAI.Application.csproj"
+      "path": "../FalaInglesAI.Application/FalaInglesAI.Application.csproj",
+      "msbuildProject": "../FalaInglesAI.Application/FalaInglesAI.Application.csproj"
     },
-    "SpeakAI.Domain/1.0.0": {
+    "FalaInglesAI.Domain/1.0.0": {
       "type": "project",
-      "path": "../FalainglesAI.Domain/SpeakAI.Domain.csproj",
-      "msbuildProject": "../FalainglesAI.Domain/SpeakAI.Domain.csproj"
+      "path": "../FalaInglesAI.Domain/FalaInglesAI.Domain.csproj",
+      "msbuildProject": "../FalaInglesAI.Domain/FalaInglesAI.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net10.0": [
-      "SpeakAI.Application >= 1.0.0",
-      "SpeakAI.Domain >= 1.0.0"
+      "FalaInglesAI.Application >= 1.0.0",
+      "FalaInglesAI.Domain >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -51,11 +51,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\MeusProjetos\\2026\\falainglesai\\src\\Backend\\FalainglesAI.Infrastructure\\SpeakAI.Infrastructure.csproj",
-      "projectName": "SpeakAI.Infrastructure",
-      "projectPath": "D:\\MeusProjetos\\2026\\falainglesai\\src\\Backend\\FalainglesAI.Infrastructure\\SpeakAI.Infrastructure.csproj",
+      "projectUniqueName": "D:\\MeusProjetos\\2026\\falainglesai\\src\\Backend\\FalaInglesAI.Infrastructure\\FalaInglesAI.Infrastructure.csproj",
+      "projectName": "FalaInglesAI.Infrastructure",
+      "projectPath": "D:\\MeusProjetos\\2026\\falainglesai\\src\\Backend\\FalaInglesAI.Infrastructure\\FalaInglesAI.Infrastructure.csproj",
       "packagesPath": "C:\\Users\\John\\.nuget\\packages\\",
-      "outputPath": "D:\\MeusProjetos\\2026\\falainglesai\\src\\Backend\\FalainglesAI.Infrastructure\\obj\\",
+      "outputPath": "D:\\MeusProjetos\\2026\\falainglesai\\src\\Backend\\FalaInglesAI.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\John\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -70,11 +70,11 @@
         "net10.0": {
           "targetAlias": "net10.0",
           "projectReferences": {
-            "D:\\MeusProjetos\\2026\\falainglesai\\src\\Backend\\FalainglesAI.Application\\SpeakAI.Application.csproj": {
-              "projectPath": "D:\\MeusProjetos\\2026\\falainglesai\\src\\Backend\\FalainglesAI.Application\\SpeakAI.Application.csproj"
+            "D:\\MeusProjetos\\2026\\falainglesai\\src\\Backend\\FalaInglesAI.Application\\FalaInglesAI.Application.csproj": {
+              "projectPath": "D:\\MeusProjetos\\2026\\falainglesai\\src\\Backend\\FalaInglesAI.Application\\FalaInglesAI.Application.csproj"
             },
-            "D:\\MeusProjetos\\2026\\falainglesai\\src\\Backend\\FalainglesAI.Domain\\SpeakAI.Domain.csproj": {
-              "projectPath": "D:\\MeusProjetos\\2026\\falainglesai\\src\\Backend\\FalainglesAI.Domain\\SpeakAI.Domain.csproj"
+            "D:\\MeusProjetos\\2026\\falainglesai\\src\\Backend\\FalaInglesAI.Domain\\FalaInglesAI.Domain.csproj": {
+              "projectPath": "D:\\MeusProjetos\\2026\\falainglesai\\src\\Backend\\FalaInglesAI.Domain\\FalaInglesAI.Domain.csproj"
             }
           }
         }

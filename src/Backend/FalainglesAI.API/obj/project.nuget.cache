@@ -1,24 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "qBjmrqodE6U=",
+  "dgSpecHash": "H+TTWf5Hsy8=",
   "success": true,
-  "projectFilePath": "D:\\MeusProjetos\\2026\\falainglesai\\src\\Backend\\FalaInglesAI.API\\SpeakAI.API.csproj",
+  "projectFilePath": "D:\\MeusProjetos\\2026\\falainglesai\\src\\Backend\\FalaInglesAI.API\\FalaInglesAI.API.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\John\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.7\\microsoft.aspnetcore.openapi.10.0.7.nupkg.sha512",
-    "C:\\Users\\John\\.nuget\\packages\\microsoft.openapi\\2.0.0\\microsoft.openapi.2.0.0.nupkg.sha512"
+    "C:\\Users\\John\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.12\\microsoft.aspnetcore.openapi.10.0.12.nupkg.sha512",
+    "C:\\Users\\John\\.nuget\\packages\\microsoft.openapi\\2.12.0\\microsoft.openapi.2.12.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1903",
-      "level": "Warning",
-      "message": "O pacote 'Microsoft.OpenApi' 2.0.0 tem uma alta vulnerabilidade de gravidade conhecida, https://github.com/advisories/GHSA-v5pm-xwqc-g5wc",
-      "projectPath": "D:\\MeusProjetos\\2026\\falainglesai\\src\\Backend\\FalaInglesAI.API\\SpeakAI.API.csproj",
-      "warningLevel": 1,
-      "filePath": "D:\\MeusProjetos\\2026\\falainglesai\\src\\Backend\\FalaInglesAI.API\\SpeakAI.API.csproj",
-      "libraryId": "Microsoft.OpenApi",
-      "targetGraphs": [
-        "net10.0"
-      ]
-    }
-  ]
+  "logs": []
 }
