@@ -26,7 +26,7 @@ export function CreatorBanner({ onOpenStory }: CreatorBannerProps) {
             className="text-emerald-400 hover:text-emerald-300 font-semibold underline underline-offset-4 flex items-center gap-1 cursor-pointer transition-colors"
           >
             <Sparkles className="w-3.5 h-3.5" />
-            Por que criei este projeto?
+            Por que criei o FalaIngles.ai?
           </button>
           <a
             href="https://www.linkedin.com/in/john-victor-742463115"
