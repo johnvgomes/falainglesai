@@ -1,0 +1,50 @@
+# 🎙️ SpeakAI — Real-Time Voice English Practice
+
+> Plataforma de conversação em inglês com Inteligência Artificial em tempo real, criada para ajudar profissionais e a comunidade a destravarem a fala sem julgamentos e sem custos.
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-emerald.svg)](LICENSE)
+[![.NET](https://img.shields.io/badge/.NET-9.0-purple.svg)](https://dotnet.microsoft.com/)
+[![React](https://img.shields.io/badge/React-18-blue.svg)](https://reactjs.org/)
+[![Status](https://img.shields.io/badge/Status-Em%20Busca%20de%20Oportunidade-brightgreen.svg)](https://www.linkedin.com/in/john-victor-742463115)
+
+---
+
+## 👨‍💻 O Desenvolvedor & A Motivação
+
+Olá! Eu sou **John Victor Gomes**, desenvolvedor focado em **Backend & Full Stack (.NET, C#, React, PostgreSQL, Docker)** e atualmente **em busca de uma oportunidade profissional**.
+
+🔗 **Conecte-se comigo no LinkedIn:** [linkedin.com/in/john-victor-742463115](https://www.linkedin.com/in/john-victor-742463115)
+
+### 💡 A Faísca do Projeto
+Este projeto nasceu de uma experiência real: durante uma entrevista técnica em inglês, percebi que, mesmo dominando a leitura e a escrita, a falta de prática oral diária gerava hesitação e bloqueios na fala. 
+
+Muitos profissionais brasileiros enfrentam esse mesmo desafio e não têm condições de investir centenas de reais por mês em cursos ou professores particulares. O **SpeakAI** foi desenvolvido para transformar esse obstáculo numa solução prática, escalável e 100% gratuita para a comunidade.
+
+---
+
+## 🚀 Funcionalidades Principais
+
+- **Conversação por Voz Fluida:** Prática interativa simulando chamadas reais via WebRTC / Speech APIs.
+- **Adaptação de Nível:** Ajuste dinâmico de vocabulário e velocidade com base no nível CEFR do usuário (A1 a C2).
+- **Simulações Reais:** Cenários para entrevistas técnicas, reuniões diárias (*dailies*), imigração e viagens.
+- **Relatório Pós-Conversa:** Análise imediata de erros comuns cometidos por brasileiros (falsos cognatos, vícios de linguagem) e sugestões de como um nativo falaria.
+- **Gamificação & Consistência:** Metas diárias de 5 a 15 minutos, ofensivas de dias (*streaks*) e pontuação por XP.
+
+---
+
+## 🏛️ Arquitetura do Software
+
+O projeto segue as diretrizes da **Clean Architecture** e princípios **SOLID**, assegurando desacoplamento e testabilidade:
+
+```text
+speakai/
+├── src/
+│   ├── Backend/
+│   │   ├── SpeakAI.Domain/          # Entidades de domínio, Enums e Interfaces centrais
+│   │   ├── SpeakAI.Application/     # Casos de uso (Commands/Queries), DTOs e validações
+│   │   ├── SpeakAI.Infrastructure/  # Supabase/EF Core, Repositórios e integrações externas
+│   │   └── SpeakAI.API/             # Controllers, WebSockets/WebRTC e Middleware ASP.NET Core
+│   └── Frontend/                    # Aplicação client-side (React, Tailwind CSS, Web Speech)
+└── tests/
+    ├── SpeakAI.UnitTests/           # Testes unitários de regras de negócio
+    └── SpeakAI.IntegrationTests/    # Testes de integração de API e banco de dados
