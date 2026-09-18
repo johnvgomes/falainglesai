@@ -7,12 +7,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.*" />
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.7" />
   </ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\FalaInglesAI.Application\FalaInglesAI.Application.csproj" />
-    <ProjectReference Include="..\FalaInglesAI.Infrastructure\FalaInglesAI.Infrastructure.csproj" />
+ <ItemGroup>
+    <ProjectReference Include="../FalaInglesAI.Application/FalaInglesAI.Application.csproj" />
+    <ProjectReference Include="../FalaInglesAI.Infrastructure/FalaInglesAI.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>
