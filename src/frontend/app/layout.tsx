@@ -13,11 +13,11 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "SpeakAI — Prática de Inglês por Voz com IA | por John Victor Gomes",
+  title: "FalaIngles.ai — Pratique Inglês Falando com IA | por John Victor Gomes",
   description:
     "Plataforma gratuita de conversação em inglês com inteligência artificial adaptativa. Desenvolvido por John Victor Gomes com Clean Architecture, .NET 9 e React.",
   keywords: [
-    "SpeakAI",
+    "FalaIngles.ai",
     "Inglês com IA",
     "Conversação em inglês",
     "Clean Architecture",
