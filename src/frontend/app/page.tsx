@@ -10,11 +10,33 @@ import {
   Briefcase,
   Plane,
   Coffee,
-  Laptop
+  Laptop,
+  Loader2
 } from 'lucide-react';
 
 export default function Home() {
   const [isStoryModalOpen, setIsStoryModalOpen] = useState(false);
+  const [isLoading, setIsLoading] = useState(false);
+
+  const handleStartSpeaking = async () => {
+    setIsLoading(true);
+    try {
+      const baseUrl = process.env.NEXT_PUBLIC_API_URL || 'https://falainglesai.onrender.com';
+      const response = await fetch(`${baseUrl}/api/health`);
+
+      if (!response.ok) {
+        throw new Error(`Servidor respondeu com status ${response.status}`);
+      }
+
+      const data = await response.json();
+      alert(`Conexão com o backend estabelecida com sucesso!\n\nResposta do .NET: ${JSON.stringify(data)}`);
+    } catch (error) {
+      console.error('Erro na requisição:', error);
+      alert(`Não foi possível conectar ao backend.\nDetalhes: ${(error as Error).message}\n\n(Lembre-se de que instâncias gratuitas no Render podem levar até 50 segundos para acordar no primeiro request).`);
+    } finally {
+      setIsLoading(false);
+    }
+  };
 
   return (
     <div className="min-h-screen bg-[#09090b] text-zinc-100 font-sans selection:bg-emerald-500 selection:text-black">
@@ -81,11 +103,21 @@ export default function Home() {
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 max-w-md mx-auto mb-14">
           <button
-            onClick={() => alert("Pronto para iniciar! No próximo passo conectaremos a chamada de voz ao backend .NET 9.")}
-            className="w-full sm:w-auto px-8 py-4 bg-emerald-500 hover:bg-emerald-400 text-black font-bold text-base rounded-full shadow-xl shadow-emerald-500/25 hover:scale-105 transition-all flex items-center justify-center gap-2"
+            onClick={handleStartSpeaking}
+            disabled={isLoading}
+            className="w-full sm:w-auto px-8 py-4 bg-emerald-500 hover:bg-emerald-400 disabled:opacity-75 disabled:hover:scale-100 text-black font-bold text-base rounded-full shadow-xl shadow-emerald-500/25 hover:scale-105 transition-all flex items-center justify-center gap-2"
           >
-            <Mic className="w-5 h-5 text-black" />
-            Começar a Falar Agora
+            {isLoading ? (
+              <>
+                <Loader2 className="w-5 h-5 text-black animate-spin" />
+                Conectando ao backend...
+              </>
+            ) : (
+              <>
+                <Mic className="w-5 h-5 text-black" />
+                Começar a Falar Agora
+              </>
+            )}
           </button>
           <button
             onClick={() => setIsStoryModalOpen(true)}
@@ -122,8 +154,8 @@ export default function Home() {
       {/* Footer */}
       <footer className="border-t border-zinc-800/80 py-8 text-center text-xs text-zinc-500">
         <p>Desenvolvido com dedicação por <strong>John Victor Gomes</strong> para a comunidade de desenvolvedores.</p>
-        <p className="mt-1">Construído com Clean Architecture, .NET 9, WebRTC e React.</p>
+        <p className="mt-1">Construído com Clean Architecture, .NET 10, WebRTC e React.</p>
       </footer>
     </div>
   );
-} 
+}
