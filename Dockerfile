@@ -1,6 +1,7 @@
 FROM mcr.microsoft.com/dotnet/sdk:9.0 AS build
 WORKDIR /app
 
+# Ajuste 'src/backend' ou 'src/Backend' conforme a sua pasta real
 COPY ["src/Backend/FalaInglesAI.Domain/FalaInglesAI.Domain.csproj", "src/Backend/FalaInglesAI.Domain/"]
 COPY ["src/Backend/FalaInglesAI.Application/FalaInglesAI.Application.csproj", "src/Backend/FalaInglesAI.Application/"]
 COPY ["src/Backend/FalaInglesAI.Infrastructure/FalaInglesAI.Infrastructure.csproj", "src/Backend/FalaInglesAI.Infrastructure/"]
