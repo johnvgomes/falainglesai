@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SpeakAI.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ca5c9db0d0f39c69ac87991d87e1598f9f924b40")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b393320cdb34bf13e00d646bed6bbb3209c7dd2b")]
 [assembly: System.Reflection.AssemblyProductAttribute("SpeakAI.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SpeakAI.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,0 +1,16 @@
+<Solution>
+  <Folder Name="/src/" />
+  <Folder Name="/src/Backend/" />
+  <Folder Name="/src/Backend/FalainglesAI.API/">
+    <Project Path="src/Backend/FalainglesAI.API/SpeakAI.API.csproj" />
+  </Folder>
+  <Folder Name="/src/Backend/FalainglesAI.Application/">
+    <Project Path="src/Backend/FalainglesAI.Application/SpeakAI.Application.csproj" />
+  </Folder>
+  <Folder Name="/src/Backend/FalainglesAI.Domain/">
+    <Project Path="src/Backend/FalainglesAI.Domain/SpeakAI.Domain.csproj" />
+  </Folder>
+  <Folder Name="/src/Backend/FalainglesAI.Infrastructure/">
+    <Project Path="src/Backend/FalainglesAI.Infrastructure/SpeakAI.Infrastructure.csproj" />
+  </Folder>
+</Solution>
