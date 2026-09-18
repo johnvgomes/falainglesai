@@ -6,44 +6,33 @@ import { StoryModal } from '@/components/ui/StoryModal';
 import {
   Mic,
   Sparkles,
-  Flame,
-  Star,
-  ArrowRight,
-  Globe2,
   Heart,
   Briefcase,
   Plane,
   Coffee,
-  Laptop,
-  Check,
-  CheckCircle2,
-  XCircle,
-  HelpCircle,
-  ChevronDown,
-  ChevronUp
+  Laptop
 } from 'lucide-react';
 
 export default function Home() {
   const [isStoryModalOpen, setIsStoryModalOpen] = useState(false);
-  const [openFaq, setOpenFaq] = useState<number | null>(null);
 
   return (
     <div className="min-h-screen bg-[#09090b] text-zinc-100 font-sans selection:bg-emerald-500 selection:text-black">
-      {/* 1. Banner com seu nome, LinkedIn e busca por oportunidade */}
+      {/* 1. Banner com nome do criador, LinkedIn e busca por oportunidade */}
       <CreatorBanner onOpenStory={() => setIsStoryModalOpen(true)} />
 
-      {/* 2. Modal com a sua história real da entrevista em inglês */}
+      {/* 2. Modal com a história real da entrevista em inglês */}
       <StoryModal isOpen={isStoryModalOpen} onClose={() => setIsStoryModalOpen(false)} />
 
-      {/* 3. Header da aplicação */}
+      {/* 3. Header principal */}
       <header className="border-b border-zinc-800/80 backdrop-blur-md bg-[#09090b]/80 sticky top-0 z-40">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between">
           <div className="flex items-center gap-2.5">
             <div className="w-9 h-9 rounded-xl bg-emerald-500 flex items-center justify-center text-black font-extrabold text-xl shadow-lg shadow-emerald-500/20">
-              S
+              F
             </div>
             <span className="text-xl font-bold tracking-tight">
-              Speak<span className="text-emerald-400">AI</span>
+              FalaIngles<span className="text-emerald-400">.ai</span>
             </span>
             <span className="text-xs font-semibold px-2 py-0.5 rounded-full bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 hidden sm:inline">
               Comunitário & Gratuito
@@ -56,7 +45,7 @@ export default function Home() {
               className="px-4 py-2 text-xs font-semibold bg-zinc-800 hover:bg-zinc-700 text-zinc-200 rounded-full transition-all flex items-center gap-1.5"
             >
               <Sparkles className="w-3.5 h-3.5 text-emerald-400" />
-              Por que criei o SpeakAI?
+              Por que criei o FalaIngles.ai?
             </button>
             <a
               href="https://www.linkedin.com/in/john-victor-742463115"
@@ -92,7 +81,7 @@ export default function Home() {
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 max-w-md mx-auto mb-14">
           <button
-            onClick={() => alert("Pronto para iniciar! No próximo passo ligaremos a voz com o backend .NET 9.")}
+            onClick={() => alert("Pronto para iniciar! No próximo passo conectaremos a chamada de voz ao backend .NET 9.")}
             className="w-full sm:w-auto px-8 py-4 bg-emerald-500 hover:bg-emerald-400 text-black font-bold text-base rounded-full shadow-xl shadow-emerald-500/25 hover:scale-105 transition-all flex items-center justify-center gap-2"
           >
             <Mic className="w-5 h-5 text-black" />
@@ -137,4 +126,4 @@ export default function Home() {
       </footer>
     </div>
   );
-}
+} 
