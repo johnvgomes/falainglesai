@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <ItemGroup>
-    <ProjectReference Include="..\FalainglesAI.Domain\FalaInglesAI.Domain.csproj" />
+    <ProjectReference Include="..\FalaInglesAI.Domain\FalaInglesAI.Domain.csproj" />
   </ItemGroup>
 
   <PropertyGroup>
